@@ -37,6 +37,13 @@ header {
     background-color: coral;
 } */
 
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid #FF6C00;
+}
+
 .logo {
     color: var(--black-text);
     font-size: 26px;
@@ -186,3 +193,6 @@ footer {
     line-height: 30px;
 }
   
+.portfolio-main h1 {
+    display:none;
+}
