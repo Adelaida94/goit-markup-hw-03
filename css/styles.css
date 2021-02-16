@@ -38,10 +38,10 @@ header {
 } */
 
 .container {
-    width: 1185px;
-    padding: 0 15px;
+    width: 1200px;
+    padding: 15px 15px;
     margin: 0 auto;
-    border: 1px solid #FF6C00;
+    /* border: 1px solid #FF6C00; */
 }
 
 .header-nav,
@@ -53,11 +53,16 @@ header {
     display: flex;
 }
 
+img {
+    display: block;
+}
+
 .header .container {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
     margin-top: 32px;
+    border-bottom: 1px solid var(--light-grey-stroke);
   
 }
 
@@ -65,6 +70,7 @@ header {
     display: flex;
     align-items: center;
     margin-top: 32px;
+    border-bottom: 1px solid var(--light-grey-stroke);
 }
 
 .header-nav-links {
@@ -190,6 +196,10 @@ header {
     margin-bottom: 50px; 
 }
 
+.about h3 {
+    margin-bottom: 10px;
+}
+
 .about-images {
     display: flex;
     align-items: center;
@@ -198,7 +208,7 @@ header {
 }
 
 .images {
-    width: 365px;
+    width: 370px;
 }
 
 .images:nth-child(2) {
@@ -218,6 +228,48 @@ margin-right:30px;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+}
+
+.team .container {
+    /* display: flex; */
+    align-items: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.workers {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.workers li:nth-child(1) {
+    margin-right: 30px;
+}
+
+.workers li:nth-child(2) {
+    margin-right: 30px;
+}
+
+.workers li:nth-child(3) {
+    margin-right: 30px;
+}
+
+.workers li {
+    width: 270px;
+}
+
+.worker-names {
+    background-color: var(--white);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.workers h3 {
+    margin-bottom: 10px;
 }
 
 .team {
@@ -265,14 +317,34 @@ margin-right:30px;
     color: var(--blue);
 }
 
+.footer .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 footer {
     background-color: var(--graphite-bg);
 }
+
 .logo-foot {
+    /* display: block; */
     color: var(--white);
     font-size: 26px;
     line-height: 31px;
     font-family: 'Raleway', sans-serif;
+}
+
+.footer-address {
+    /* display: block; */
+    margin-top: 20px;
+}
+
+.footer-address li:nth-child(1) {
+    margin-bottom: 9px;
+}
+
+.footer-address li:nth-child(2) {
+    margin-bottom: 9px;
 }
 
 .link-foot-adr {
