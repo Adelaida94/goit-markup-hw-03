@@ -123,21 +123,36 @@ header {
     text-align: center;
 }
 
+.hero .container {
+    height: 600px;
+} 
 .hero {
     background-color: var(--graphite-bg); 
 }
 .hero-title {
+    margin-left: 252px;
+    margin-right: 252px;
+    margin-top: 200px;
+    margin-bottom: 30px;
     color: var(--white);
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .hero-btn {
+    margin-left: 468px;
+    margin-right: 468px;
+    padding: 10px 32px;
     background-color: var(--blue);
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     color: var(--white);
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .features {
