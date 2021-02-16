@@ -38,13 +38,70 @@ header {
 } */
 
 .container {
-    width: 1170px;
+    width: 1185px;
     padding: 0 15px;
     margin: 0 auto;
     border: 1px solid #FF6C00;
 }
 
+.header-nav,
+.portfolio-header-nav,
+.header-nav-links,
+.header-address,
+.portfolio-header-links,
+.portfolio-header-address {
+    display: flex;
+}
+
+.header .container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 32px;
+  
+}
+
+.portfolio-header .container {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.header-nav-links {
+    margin-left: 93px;
+    margin-top: 32px;
+    margin-bottom:35px;
+    margin-right: 331px;
+}
+
+.portfolio-header-links {
+    margin-left: 93px;
+    margin-top: 32px;
+    margin-bottom:35px;
+    margin-right: 331px;
+}
+
+.header-nav li:nth-child(2) {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.portfolio-header-nav li:nth-child(2) {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header-address p:nth-child(2) {
+    margin-left:50px;
+}
+
+.portfolio-header-address p:nth-child(2) {
+    margin-left:50px;
+}
+
 .logo {
+    margin-top:24px;
+    margin-bottom:23px;
     color: var(--black-text);
     font-size: 26px;
     line-height: 31px;
