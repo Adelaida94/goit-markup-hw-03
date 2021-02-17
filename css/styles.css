@@ -62,14 +62,19 @@ img {
     /* justify-content: space-between; */
     align-items: center;
     margin-top: 32px;
-    border-bottom: 1px solid var(--light-grey-stroke);
-  
+    /* border-bottom: 1px solid var(--light-grey-stroke); */
+    height: 80px;
 }
 
 .portfolio-header .container {
     display: flex;
     align-items: center;
-    margin-top: 32px;
+    /* margin-top: 32px; */
+    /* border-bottom: 1px solid var(--light-grey-stroke); */
+    height: 80px;
+}
+
+.portfolio-header {
     border-bottom: 1px solid var(--light-grey-stroke);
 }
 
