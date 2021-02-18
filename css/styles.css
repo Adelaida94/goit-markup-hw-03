@@ -400,6 +400,7 @@ footer {
     margin-left: 280px;
     margin-right: 279px;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .portfolio-btns a:nth-child(1) {
